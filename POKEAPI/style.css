@@ -1,0 +1,62 @@
+html, body {
+  width: 100% !important;
+  background: url(fondo.jpg)fixed no-repeat;
+  background-size:cover;
+  webkit-background-size:cover;
+  moz-background-size:cover;
+  o-background-size:cover;
+
+}
+.fullContainer, .fullWidth {
+  /* Full Size Container */
+  width: 100% !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+/* Header Bar Style */
+.header {
+  height: 80px;
+  background-color: darkorange; /*Red Color*/
+  width: 100%;
+  /* Vertical and Horizontal Align */
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+/* Pokedex Title Style */
+.title {
+  font-family: 'Rammetto One', cursive;
+  color: black    ;
+}
+/* Pokemon Container */
+.divInfo {
+  border: 3px solid black;
+  height: 250px;
+  background-color: #FDF5DE;
+  /* Picture Aling */
+  display:flex;
+  /* Vertical Align */
+  align-items: center;
+  /* Horizontal Align */
+  justify-content: center;
+  box-shadow: 3px 2px 5px #54585C;
+}
+/* Width Pokemon Picture */
+.pokePicture {
+  width: 200px;
+}
+.pokePicture:hover {
+  width: 250px;
+}
+/* Name of the Pokemon Style */
+.pokeName {
+  border: 3px solid black;
+  padding: 5px;
+  background-color: #3ACFC0;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+  font-family: 'Coiny', cursive;
+  font-size: 25px;
+  box-shadow: 3px 2px 5px #54585C;
+}
